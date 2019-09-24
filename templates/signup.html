@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <form>
+      <div class="form-row align-items-center">
+          <div class="form-group row">
+            <label for="inputEmailSignUp" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmailSignUp" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPasswordSignUp" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPasswordSignUp" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="passwordConfirmation" class="col-sm-2 col-form-label">Confirm your Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="passwordConfirmation" placeholder="Password">
+            </div>
+          </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2 ev-btn-primary">Register
+<svg class="button-arr-dark" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+	<path class="button-arr-dark-path" d="M13.8,0.4C13.66,0.13,13.45,0,13.17,0H0.83C0.28,0,0,0.5,0,1.51c0,1.02,0.28,1.54,0.83,1.54h9.68v10.12
+		c0,0.56,0.58,0.83,1.73,0.83c1.17,0,1.76-0.28,1.76-0.83V0.83C14,0.66,13.92,0.52,13.8,0.4z"/>
+	<path class="button-arr-dark-path" d="M2.43,9.28c-0.64,0-1.19,0.22-1.63,0.66c-0.44,0.44-0.66,0.97-0.66,1.6c0,0.64,0.22,1.19,0.66,1.64
+		c0.44,0.45,0.98,0.67,1.63,0.67c0.64,0,1.19-0.22,1.63-0.67c0.44-0.45,0.66-1,0.66-1.64c0-0.62-0.22-1.16-0.66-1.6
+		C3.62,9.5,3.07,9.28,2.43,9.28z"/>
+</svg></button>
+        </div>
+      </div>
+    </form>
+</div>
+{% endblock %}

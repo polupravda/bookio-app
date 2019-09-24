@@ -1,0 +1,31 @@
+.ev-btn-primary {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+  background: #ffb600;
+  padding: 5px 42px 5px 20px;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Baloo', cursive;
+  position: relative;
+  transition-property: background;
+  transition-duration: 1s; }
+  .ev-btn-primary:hover {
+    background: #333333;
+    color: #ffb600; }
+    .ev-btn-primary:hover svg {
+      fill: #ffb600; }
+  .ev-btn-primary svg {
+    fill: #333;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    right: 20px;
+    top: 9px; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
