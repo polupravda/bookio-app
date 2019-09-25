@@ -2,7 +2,14 @@
 
 {% block content %}
 <div class="container">
-    <form>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div class="notification is-danger">
+            {{ messages[0] }} Go to <a href="{{ url_for('app.login') }}">Login Page</a>
+        </div>
+    {% endif %}
+    {% endwith %}
+    <form action="/signup" method="POST">
       <div class="form-row align-items-center">
           <div class="form-group row">
             <label for="inputEmailSignUp" class="col-sm-2 col-form-label">Email</label>

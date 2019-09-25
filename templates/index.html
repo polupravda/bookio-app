@@ -14,8 +14,8 @@
             <li>ID: {{ book.id }} ISBN: {{ book.isbn }}</li>
         {% endfor %}
 
-        {% for bookBasic in booksBasic %}
-        <li>{{ bookBasic.title }}</li>
+        {% for book_basic in books_basic %}
+        <li>{{ book_basic.title }}</li>
         {% endfor %}
     </div>
 {% endblock %}
